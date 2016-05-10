@@ -1,0 +1,23 @@
+Package: BSgenome.Pvivax.ensemble13.EPr2
+Title: Plasmodium vivax full genome (assembly EPr2)
+Description: Plasmodium vivax full genome as provided by Ensemble (assembly EPr2) and stored in Biostrings objects.
+Version: 1.0.0
+Author: A. Lerch
+Maintainer: Anita Lerch <lerch.anita@gmail.com>
+organism: Plasmodium vivax
+species: Plasmodium vivax
+provider: Ensemble
+provider_version: Ensemble 13
+release_date: Nov. 2009
+release_name: EPr2
+source_url: ftp://ftp.ensemblgenomes.org/pub/protists/release-13/fasta/plasmodium_vivax/dna/
+organism_biocview: Plasmodium_vivax
+BSgenomeObjname: Pvivax
+seqnames: as.character(paste(1:14))
+SrcDataFiles1: sequences: chromFa.zip, upstream1000.zip, upstream2000.zip, upstream5000.zip
+	ftp://ftp.ensemblgenomes.org/pub/protists/release-13/fasta/plasmodium_vivax/dna/
+PkgExamples: Pvivax
+	seqlengths(Pvivax)
+	Pvivax$1  # same as Pvivax[["1"]]
+seqs_srcdir: /home/anita/malaria/data/BSgenome.Pvivax.ensemble.EPr2/seqs
+masks_srcdir: /home/anita/malaria/data/BSgenome.Pvivax.ensemble.EPr2/mask
